@@ -1,0 +1,188 @@
+.menu{
+	text-align: center;
+
+}
+.menu a{
+	text-decoration: none;
+	color:#000; 
+	width: 150px;
+	display: inline-block;
+}
+.menu a:hover {
+	background-color: #ccc;
+}
+.header{
+	text-align: center;
+	color: white;
+	padding: 200px 0;
+	background-image: url(polygons.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+
+
+
+
+}
+.header a{
+	text-decoration: none;
+	background-color: white;
+	color: #000;
+	padding: 10px;
+	border-radius: 10px; 
+}
+#about-us img{
+	width: 400px;
+	display: inline-block;
+}
+#about-us p{
+display: inline-block;
+width: 700px;
+text-align: justify;
+
+}
+#about-us{
+	width: 1200px;
+	padding: 40px 0;
+	margin: 0 auto;
+	text-align: center;
+
+	
+}
+.member{
+	display: inline-block;
+	width: 20%;
+	margin: 20px 10px;
+	border: 2px solid gray;
+	box-shadow: 0 2px 5px gray;
+	padding: 20px;
+
+}
+.member img{
+	width: 100%;
+}
+.member h3{
+	font-weight:400px;
+	font-size: 24px;
+
+}
+.position{
+	opacity: 0.6;
+}
+.member a{
+	text-decoration: none;
+	background-color: #055b73;
+	color:white;
+	padding: 14px 0;
+	border-radius:10px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+
+.text{
+	text-align: center;
+}
+.pricings li{
+	list-style-type: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 16px 0;
+
+}
+ul{
+	display: inline-block;
+	width: 30%;
+	background-color: white;
+	margin: 10px;
+	padding: 0;
+	vertical-align: middle;
+}
+#plans{
+	background-color: #616161;
+	text-align: center;
+	padding: 50px 0;
+}
+.pricingname{
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	padding: 32px 0;
+}
+.bluename{
+	background-color: #055b73;
+	color: white;
+	padding: 48px 0 !important;
+
+}
+.pricings a{
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 12px 24px;
+}
+.pricings li:last-child {
+	background-color: #f1f1f1;
+	padding: 24px 0;
+}
+.pricings a:hover{
+	background-color: white;
+	color: black;
+
+}
+#plans h2,#plans p{
+	color: white;
+}
+#plans .price-per-day{
+	color: black;
+	font-weight:bold;
+	font-size: 24px;
+
+}
+#plans .period{
+	color: black;
+	opacity: 0.4;
+}
+#contact{
+	background-color: #f1f1f1;
+	text-align: center;
+}
+.contact-address{
+background-image: url(address.png);
+}
+.contact-phone{
+background-image: url(phone.png);
+}
+.contact-mail{
+background-image: url(mail.png);
+}
+.contact-info{
+	text-align: left;
+	padding-left: 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-left: 5%;
+}
+#contact input{
+	width: 90%;
+	padding:8px;
+}
+#contact button{
+	background-color: black;
+	color: white;
+	padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+#contact button:hover{
+	color: black;
+	background-color: white;
+}
+.all-rights{
+	
+	background-color: black;
+	color: white;
+}
